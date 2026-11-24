@@ -170,9 +170,9 @@
   # ---------------------------------------------------------------
   # Usuario
   # ---------------------------------------------------------------
-  # AJUSTE: troque "felipe" pelo seu usuario.
-  # Depois do primeiro boot, defina a senha com: passwd felipe
-  users.users.felipe = {
+  # AJUSTE: troque "felcardoso" pelo seu usuario.
+  # Depois do primeiro boot, defina a senha com: passwd felcardoso
+  users.users.felcardoso = {
     isNormalUser = true;
     description = "Felipe Cardoso";
     extraGroups = [ "wheel" "networkmanager" "docker" "video" "audio" ];
@@ -180,7 +180,7 @@
     # AJUSTE: cole aqui a sua chave publica SSH (o conteudo de ~/.ssh/id_ed25519.pub).
     # Sem chave, voce nao entra por SSH, pois a senha esta desativada.
     openssh.authorizedKeys.keys = [
-      # "ssh-ed25519 AAAA... felipe@celular"
+      # "ssh-ed25519 AAAA... felcardoso@celular"
     ];
   };
 
